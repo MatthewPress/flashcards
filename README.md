@@ -1,71 +1,101 @@
-# FlashCards Starter Kit
+<a name="readme-top"></a>
 
-## Fork This Repo
+<!-- PROJECT SHIELDS -->
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-On the top right corner of this page, click the **Fork** button.
+<br />
+<!-- HEADER -->
+<div align="center">
+  <h3 align="center">Flashcards</h3>
+  <p align="center">
+    Turing School Mod 2 Solo Project
+    <br />
+    <a href="https://github.com/MatthewPress/flashcards"><strong>Explore the docs »</strong></a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#setup">Setup</a>
+    </li>
+    <li><a href="#notes">Notes</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+## About The Project
+
+[![Demo][product-demo]](./demo.gif)
+
+A common test prep tactic is to create a set flashcards. `Flashcards` allows you to create and run through a set of flashcards, choose an answer from a list of options, recieve feedback, and get a grade for your knowledge on the topic. This project was created for the Turing School of Software and Design's Module 2 solo project.
+
+### Built With
+
+* Languages  
+![JavaScript][JavaScript.com]
+
+* Frameworks  
+![Node][Node.js] 
+![NPM][NPM.js]
+![Mocha][mocha]
+![Chai][chai]
+
+* Tools 
+![GitHub][github]
+![Git][git]
+![VSCode][vscode]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Setup
 
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
+- Clone the repository to your local machine
+- `cd` into the project
+- `node index.js`
+- Use your arrow keys or enter the option number you want to select
 
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
+## Roadmap
 
-```bash
-npm install
-```
+- [ ] Display a Report Card that details any answers that the user got wrong and how many tries it took 
 
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
+## Notes
 
-```bash
-Your project is running...
-```
+Planning documents for this project: [Google Doc](https://docs.google.com/document/d/12g8gu3KCzLqMYv5o4oPbQ1_TcNFPyca1GAdDbFl9Rfw/edit)
 
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Contact
 
-## Where to Add Your Code
+Matthew Press - [@MatthewPres2](https://twitter.com/MatthewPres2) - press.matt14@gmail.com
 
-### JavaScript
+Project Link: [https://github.com/MatthewPress/tic-tac-toe](https://github.com/MatthewPress/tic-tac-toe)
 
-**Create all of your feature code files in the `src` directory.**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-We will be using the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
-
-
+<!-- MARKDOWN LINKS & IMAGES -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/matthew-press-813961246/
+[product-demo]: ./demo.gif
+[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: https://www.javascript.com/
+[Node.js]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
+[NPM.js]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
+[mocha]: https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=Mocha&logoColor=white
+[chai]: https://img.shields.io/badge/Chai-A30701?style=for-the-badge&logo=chai&logoColor=white
+[git]: https://img.shields.io/badge/git-F05032.svg?style=for-the-badge&logo=git&logoColor=white
+[github]: https://img.shields.io/badge/github-181717.svg?style=for-the-badge&logo=github&logoColor=white
+[vscode]: https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual%20studio%20code&logoColor=white
