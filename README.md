@@ -1,71 +1,96 @@
-# FlashCards Starter Kit
+<a name="readme-top"></a>
 
-## Fork This Repo
+<!-- PROJECT SHIELDS -->
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-On the top right corner of this page, click the **Fork** button.
+<br />
+<!-- HEADER -->
+<div align="center">
+  <h3 align="center">Flashcards</h3>
+  <p align="center">
+    Turing Mod 2 Solo Project
+    <br />
+    <a href="https://github.com/MatthewPress/flashcards"><strong>Explore the docs »</strong></a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#setup">Setup</a>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li>
+        <a href="#notes">Notes</a>
+        <ul>
+            <li><a href="#reflections">Reflections</a>
+        </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+## About The Project
+
+[![Grids Demo][product-demo]](assets/images/demo.gif)
+
+This project was created for the Turing School of Software and Design's Module 2 solo project.
+
+### Built With
+
+* [![JavaScript][JavaScript.com]][JavaScript-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Setup
 
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
+- Clone the repository to your local machine
+- `cd` into the project
+- `open index.html`
+- Grab a partner and take turns picking grid squares
 
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
+## Roadmap
 
-```bash
-npm install
-```
+- [ ] x
 
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
+## Notes
 
-```bash
-Your project is running...
-```
+Planning documents for this project: [Google Doc](https://docs.google.com/document/d/1CoiL1VDHqBoSPtplJtX_yfX9O63XWgLtd8kR_6Rthu0/edit)
 
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
+### Reflections
+* Wins
+x
 
+* Challenges
+x
 
-## Where to Add Your Code
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### JavaScript
+## Contact
 
-**Create all of your feature code files in the `src` directory.**
+Matthew Press - [@MatthewPres2](https://twitter.com/MatthewPres2) - press.matt14@gmail.com
 
-We will be using the `module.exports` and `require` syntax to share code across files.
+Project Link: [https://github.com/MatthewPress/tic-tac-toe](https://github.com/MatthewPress/tic-tac-toe)
 
-## How to View Your Code in Action
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
-
+<!-- MARKDOWN LINKS & IMAGES -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/matthew-press-813961246/
+[product-demo]: assets/images/demo.gif
+[JavaScript.com]: https://img.shields.io/badge/-JavaScript-yellow
+[JavaScript-url]: https://www.javascript.com/
 
